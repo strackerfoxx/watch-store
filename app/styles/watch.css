@@ -36,7 +36,7 @@
     font-weight: 900;
     
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     overflow: hidden;
 }
 .watch .descripcion {
@@ -55,6 +55,20 @@
 .watch .enlace{
     display: block;
     margin-top: 1.5rem;
+    background-color: rgb(186, 0, 0);
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.4rem;
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+.watch .enlace-cart{
+    display: block;
+    margin-top: 1.5rem;
     background-color: black;
     color: whitesmoke;
     text-decoration: none;
@@ -66,6 +80,7 @@
     transition-property: background-color;
     transition-duration: 200ms;
 }
+
 .guitarra .enlace:hover{
     background-color: var(--primary);
 }

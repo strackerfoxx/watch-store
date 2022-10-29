@@ -1,17 +1,10 @@
-import { useLoaderData } from "@remix-run/react"
-import {getWatches} from '~/api/watch'
-import ListadoWatches from "../components/listado-watches"
-
-export async function loader(){
-    const watches = await getWatches()
-    return watches.data
-}
+import { Outlet, useOutletContext } from "@remix-run/react"
 
 export default function Watches() {
-    const watches = useLoaderData()
+
   return (
     <div>
-        <ListadoWatches watches={watches} />
+        <Outlet context={useOutletContext()}/>
     </div>
   )
 } 

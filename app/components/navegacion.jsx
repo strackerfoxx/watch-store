@@ -4,7 +4,7 @@ export default function Navegacion() {
   return (
     <div className='navegacion'>
         <Link to='/' >index</Link>
-        <Link to='/watches' >shop</Link>
+        <Link to='/watch' >shop</Link>
         <Link to='/' >best seller</Link>
         <Link to='/us' >about us</Link>
     </div>

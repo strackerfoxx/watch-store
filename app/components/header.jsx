@@ -15,7 +15,7 @@ export default function Header() {
 
             <div className='navegacion'>
                 <Link to='/' >usd</Link>
-                <Link to='/' >cart</Link>
+                <Link to='/carrito' >cart</Link>
                 <Link to='/' >wish</Link>
                 <Link to='/' >search</Link>
                 <Link to='/' >about us</Link>
